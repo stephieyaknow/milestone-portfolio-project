@@ -1,0 +1,182 @@
+/* * * BASE STYLES * * */
+
+body {
+     background-color: #EEF5DB;
+     color: #1E1E24;
+     font-family: 'Open Sans', sans-serif;
+}
+
+header {
+     height: 800px;
+}
+
+#about {
+     background-color: #E63462;
+     color: #EEF5DB;
+     height: 1050px;
+     text-align: center;
+}
+
+#work {
+     background-color: #EEF5DB;
+     height: 850px;
+     text-align: center;
+}
+
+#contact {
+     background-color: #E63462;
+     color: #EEF5DB;
+     height: 650px;
+     text-align: center;
+}
+
+h3 {
+     font-family: 'Playfair Display', serif;
+     font-size: 36pt;
+     font-weight: bold;
+     line-height: 24px;
+     padding: 100px 0 100px 0;
+}
+
+/* * * GRID STYLES * * */
+
+.full-width {
+     width: 1200px;
+     margin: 0 auto;
+}
+
+.half-width {
+     width: 600px;
+     float: left;
+}
+
+.third-width {
+     width: 400px;
+     float: left;
+}
+
+/* * * HEADER STYLES * * */
+
+nav {
+     float: right;
+}
+
+nav ul li {
+     display: inline-block;
+     padding: 25px;
+}
+
+nav ul li a {
+     color: #38405F;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 24pt;
+     font-weight: bold;
+     text-decoration: none;
+     text-transform: uppercase;
+}
+
+nav ul li a:hover {
+     color: #FE5F55;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 24pt;
+     font-weight: bold;
+     text-decoration: none;
+     text-transform: uppercase;
+}
+
+header img {
+     padding-right: 20px;
+     width: 64px;
+}
+
+h1 {
+     clear: both;
+     font-family: 'Playfair Display', serif;
+     font-size: 64pt;
+     font-weight: bold;
+     line-height: 64pt;
+     padding-top: 150px;
+}
+
+h1 span {
+     color: #E63462;
+}
+
+h2 {
+     clear: both;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 48pt;
+     font-weight: normal;
+     line-height: 48pt;
+}
+
+/* * * ABOUT * * */
+
+#about .full-width {
+     color: #EEF5DB;
+}
+
+#about h3 {
+     font-family: 'Playfair Display', serif;
+     font-size: 36pt;
+     font-weight: bold;
+}
+
+#about h4 {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 24pt;
+     font-weight: bold;
+}
+
+#about p {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 18pt;
+     font-weight: normal;
+}
+
+/* * * WORK * * */
+
+#work h3 {
+     color: #1E1E24;
+}
+
+#work img {
+     max-width: 350px;
+     border: 1px solid #b7b7b7;
+}
+
+#work h4 {
+     font-size: 16pt;
+     font-weight: bold;
+     padding-bottom: 0px;
+     line-height: 0px;
+}
+
+#work p {
+     font-size: 16pt;
+     font-weight: normal;
+     line-height: 16pt;
+}
+
+/* * * CONTACT * * */
+
+#contact ul {
+     padding: 0px;
+}
+
+#contact ul li {
+     display: inline-block;
+     text-decoration: none;
+     padding: 10px;
+}
+
+#contact img {
+     max-width: 25px;
+}
+
+footer h5 {
+     clear: both;
+     font-size: 10px;
+     font-weight: normal;
+     padding-top: 200px;
+}
