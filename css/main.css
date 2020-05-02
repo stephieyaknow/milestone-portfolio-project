@@ -116,6 +116,11 @@ h2 {
      color: #EEF5DB;
 }
 
+#about .half-width {
+     float: none;
+     margin: 0 auto;
+}
+
 #about h3 {
      font-family: 'Playfair Display', serif;
      font-size: 36pt;
