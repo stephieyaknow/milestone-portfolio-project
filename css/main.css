@@ -165,6 +165,11 @@ h2 {
 
 /* * * CONTACT * * */
 
+#contact a {
+     color: #EEF5DB;
+     text-decoration: underline;
+}
+
 #contact ul {
      padding: 0px;
 }
